@@ -1,10 +1,7 @@
 typings
+system-config.js*
+app/**/*.js
+app/**/*.map
 node_modules
 jspm_packages
 bower_components
-
-**/*.map
-#src/**/*.js
-app/**/*.js
-!app/assets/*.js
-api/**/*.js
