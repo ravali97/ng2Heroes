@@ -5,6 +5,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
 import {HeroDetailComponent} from './hero-detail.component';
 import {HeroComponent} from './hero.component';
+import {DashboardComponent} from './dashboard.component';
 import {HeroService} from './hero.service';
 import { routing } from './app.routing';
 
@@ -17,7 +18,8 @@ import { routing } from './app.routing';
 	declarations: [
 		AppComponent,
 		HeroDetailComponent,
-		HeroComponent
+		HeroComponent,
+		DashboardComponent
 	],
 	bootstrap: [
 		AppComponent
